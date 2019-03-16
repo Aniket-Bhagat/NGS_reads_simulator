@@ -89,11 +89,12 @@ $ samtools idxstats alignment.sorted.bam
 
 Calculate error rate:
 
-
 ![Logo](https://github.com/Aniket-Bhagat/NGS_reads_simulator/blob/master/formula.PNG)
 
 Run script *calc_error.py* given with commandline argumetns as fastq(gzipped) and alignment(txt)
+
 `$ calc_error.py reads.fastq.gz alignment.sorted.txt`
+
 output:
 ```sh
 13653 reads mapped on genome position other than where it originated from
