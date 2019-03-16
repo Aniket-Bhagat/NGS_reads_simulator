@@ -3,7 +3,7 @@
 Author : Aniket Bhagat
 --
 Note: All the code is mainly implemented in Python2.7.12
-1. Human Chr17 (GRCh38) Downloaded from ensemble ftp [link](http://ftp.ensembl.org/pub/release-95/fasta/homo_sapiens/dna/).
+1. Human Chr17 (GRCh38) Downloaded from ensemble ftp [link](http://ftp.ensembl.org/pub/release-95/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.chromosome.17.fa.gz).
 2. Chromosome is divided in chunks of 1000bp (overlapping adjecent chuck with 500bp)
 3. Random chunck is selected from which random index is choosen for read of 50bp.
 4. Quality values randomly generated for 50 characters (ASCII - 33 to 126).
