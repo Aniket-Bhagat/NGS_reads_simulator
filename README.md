@@ -46,8 +46,8 @@ To test with given chromosome file 'GRCh38_chromosome17.fa.gz' run following com
 After successfully running we get two files : *reads.fastq* & *stats.csv*
 # 1. reads.fastq 
     File contains simulated read
-  Header : 'SimulaterdRead number', 'Start and End coordinates', 'Length'
-Copmress *reads.fastq* using gzip : `$ gzip -k reads.fastq`
+    Header : 'SimulaterdRead number', 'Start and End coordinates', 'Length'
+Copmress *reads.fastq* using gzip : ```$ gzip -k reads.fastq```
 # 2. stats.csv
     Tab seperated file contaning information about error introduced in reads
     (reads where errors are not introduced are not present here)
