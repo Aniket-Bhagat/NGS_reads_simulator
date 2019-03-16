@@ -39,7 +39,7 @@ optional arguments:
   --v           prints statastics of introduced errors in 'stats.csv' file
 ```
   Default values are assigned according to given exercise
-------
+
 To test with given chromosome file 'GRCh38_chromosome17.fa.gz' run following command:
 `$ time ./simulator2.py --v GRCh38_chromosome17.fa.gz`
 
