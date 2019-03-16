@@ -70,16 +70,18 @@ We can crosscheck the probability of error introduced from this data.
 
 Samtools
 ---
--SAM - BAM : `samtools view -bT GRCh38_chromosome17.fa.gz alignment.sam > alignment.bam`
--Sorting : `samtools sort alignment.bam alignment.sorted`
--BAM - TXT `samtools view alignment.sorted.bam > alignment.sorted.txt`
+- SAM - BAM : `samtools view -bT GRCh38_chromosome17.fa.gz alignment.sam > alignment.bam`
+- Sorting : `samtools sort alignment.bam alignment.sorted`
+- BAM - TXT `samtools view alignment.sorted.bam > alignment.sorted.txt`
 
 ---------
 # Error-rate calculation
 
 To get Number of Mapped and Unmapped reads:
-`$ samtools index alignment.sorted.bam`
-`$ samtools idxstats alignment.sorted.bam`
+```sh
+$ samtools index alignment.sorted.bam
+$ samtools idxstats alignment.sorted.bam
+```
 ```sh
 17      83257441        99192   0
 *       0       0       808
