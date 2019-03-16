@@ -88,6 +88,8 @@ $ samtools idxstats alignment.sorted.bam
 ```
 
 Calculate error rate:
+
+
 ![Logo](https://github.com/Aniket-Bhagat/NGS_reads_simulator/blob/master/formula.PNG)
 
 Run script *calc_error.py* given with commandline argumetns as fastq(gzipped) and alignment(txt)
