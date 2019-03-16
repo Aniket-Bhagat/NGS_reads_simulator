@@ -64,15 +64,16 @@ We can crosscheck the probability of error introduced from this data.
 
 --------
 # BWA Alignment :
--Indexing : `bwa index -p hg38idx -a bwtsw GRCh38_chromosome17.fa.gz`
--Alignment : `bwa aln -t 4 hg38idx reads.fastq.gz > alignment.bwa`
--BWA - SAM : `bwa samse hg38idx alignment.bwa reads.fastq.gz > alignment.sam`
+- Indexing : `bwa index -p hg38idx -a bwtsw GRCh38_chromosome17.fa.gz`
+- Alignment : `bwa aln -t 4 hg38idx reads.fastq.gz > alignment.bwa`
+- BWA - SAM : `bwa samse hg38idx alignment.bwa reads.fastq.gz > alignment.sam`
 
 Samtools
 ---
 -SAM - BAM : `samtools view -bT GRCh38_chromosome17.fa.gz alignment.sam > alignment.bam`
 -Sorting : `samtools sort alignment.bam alignment.sorted`
 -BAM - TXT `samtools view alignment.sorted.bam > alignment.sorted.txt`
+
 ---------
 # Error-rate calculation
 
