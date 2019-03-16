@@ -41,7 +41,7 @@ optional arguments:
   Default values are assigned according to given exercise
 
 To test with given chromosome file 'GRCh38_chromosome17.fa.gz' run following command: 
-`$ time ./simulator2.py --v GRCh38_chromosome17.fa.gz`
+```$ time ./simulator2.py --v GRCh38_chromosome17.fa.gz```
 
 After successfully running we get two files : *reads.fastq* & *stats.csv*
 # 1. reads.fastq 
