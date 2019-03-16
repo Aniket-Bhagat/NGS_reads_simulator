@@ -121,3 +121,5 @@ Python Modules used:
 5. argparser
 6. gzip
 -----
+
+Note : all analysis files are given in 'Analysis_Files' folder.
